@@ -44,8 +44,7 @@ const con=mysql.createConnection({
 })
 
 con.connect((err)=>{
-    if(err) throw err;
-    else console.log("Connected to Mysql successfully")
+   
 })
 
 
